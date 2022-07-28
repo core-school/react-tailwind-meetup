@@ -18,6 +18,18 @@ function App() {
         <Hero title="Model X" subtitle="Order Online for Touchless Delivery" />
         <Toolbar />
       </Section>
+      <div className="py-10">
+        <a
+          className="flex flex-col items-center justify-center gap-2"
+          href="https://www.corecode.school"
+        >
+          <img
+            src="https://www.corecode.school/branding/logo_app.png"
+            width={30}
+          />
+          <p>React Advanced Bootcamp · CORE Code School</p>
+        </a>
+      </div>
     </div>
   );
 }
